@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.javafx2.GeometryController">
+    <center>
+        <Canvas fx:id="canvas" width="800" height="500" />
+    </center>
+    <bottom>
+        <VBox spacing="10" style="-fx-padding: 0 0 0 30;">
+            <Button fx:id="circleButton" text="Draw Circle" style="-fx-font-size: 20px; -fx-background-color: #35334c; -fx-border-width: 2px; -fx-border-color: #d3bce4; -fx-text-fill: #d4bcdc;" />
+            <Button fx:id="rectangleButton" text="Draw Rectangle" style="-fx-font-size: 20px; -fx-background-color: #35334c; -fx-border-width: 2px; -fx-border-color: #d3bce4; -fx-text-fill: #d4bcdc;" />
+        </VBox>
+    </bottom>
+</BorderPane>
